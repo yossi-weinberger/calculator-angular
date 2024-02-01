@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Digital';
+    src: url('fonts/Digital.ttf');
+}
+
+@font-face {
+   font-family: "Calculator";
+   src: url("fonts/Calculator.ttf");
+}
+
+
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  table {
+    margin: auto;
+    border-collapse: collapse;
+  
+  }
+
+
+  table .screen {
+    font-family: 'Calculator','Digital','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: larger;
+    width: 250px;
+    margin: auto;
+    border-collapse: collapse;
+  }
+
+  table .space{
+    width: 250px;
+    /* margin: auto; */
+    border-collapse: collapse;
+  }
+
+
+  td.screen{
+    background-color: black;
+    width: 400px;
+    color: #f0f0f0;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px ;
+    border-color: #ccc;
+  }
+  
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  button {
+    width: 70px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  fieldset {
+    /* width: px; */
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background-color: black;
+  }
+  
+  p{
+    margin: 2px 0px 2px 0px;
+    padding: 0px 0px 0px 0px;
+  }
